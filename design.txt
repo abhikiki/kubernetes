@@ -1,0 +1,14 @@
+Deployments:
+
+1. voting-app
+2. result-app
+3. redis
+4. postgres
+5. worker
+
+Services:
+1. redis-service(ClusterIP)
+2. postgres-service(ClusterIP)
+
+3. voting-app-service(NodePort)
+4. result-app-service(NodePort)
